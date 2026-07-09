@@ -9,8 +9,8 @@ from selenium.webdriver.chrome.options import Options
 from selenium.common.exceptions import TimeoutException, NoSuchElementException, ElementNotInteractableException
 
 # ==================== 配置 ====================
-PROFILE_URL = "https://scholar.google.com/citations?hl=zh-CN&user=NLWSjCIAAAAJ&view_op=list_works&sortby=pubdate"
-OUTPUT_FILE = r"D:\PHD\find\Projects\Alex\maedche_all_papers.json"
+PROFILE_URL = "目标导师的谷歌学术主页"
+OUTPUT_FILE = r"目标路径"
 MAX_WAIT = 20   # 最大等待时间（秒）
 MIN_DELAY = 3   # 最小延迟（秒）
 MAX_DELAY = 7   # 最大延迟（秒）
